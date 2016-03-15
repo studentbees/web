@@ -1,0 +1,250 @@
+/* 
+================================
+ Container Styles for DotNetNuke
+================================
+*/   
+.containermaster {
+	width: 100%;
+	background-color: transparent;
+	padding:4px;
+}
+.containermaster_box {
+	width: 100%;
+	background-color: transparent;
+	padding:11px;
+}
+.content {
+	padding-top:8px; 
+	padding-right:3px;
+	padding-left:3px;
+	padding-bottom:8px;
+}
+
+/* Titles */
+.title {
+	color:#FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	line-height:27px;
+	padding-left:3px;
+}
+#indigo .title {
+	color:#183A9B;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:normal;
+}
+#t_grey .title {
+	color:#999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:normal;
+}
+/* Main Box */
+#mainbox .top {
+	background-image:url(w_top.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top;
+}
+#mainbox .bottom {
+	background-image:url(w_bottom.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:bottom;
+}
+#mainbox .left {
+	background-image:url(w_left.gif);
+	background-repeat:repeat-y;
+	background-color:transparent;
+	background-position:left;
+}
+#mainbox .top_left {
+	background-image:url(w_top_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top left;
+	padding:18px;
+	padding-top:14px;
+	height:68px;
+}
+#mainbox .basic {
+	background-color:transparent;
+	padding:12px;
+	padding-top:8px;
+}
+#mainbox .bottom_left {
+	background-image:url(w_bottom_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom left;
+}
+#mainbox .right {
+	background-image:url(w_right.gif);
+	background-repeat:repeat-y;
+	background-color:#FFFFFF;
+	background-position:right;
+}
+#mainbox .top_right {
+	background-image:url(w_top_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top right;
+}
+#mainbox .bottom_right {
+	background-image:url(w_bottom_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom right;
+}
+
+/* title box */
+table.box {
+	background-image:url(bottom_left_g.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom left;
+	padding-bottom:3px;
+}
+td.box {
+	background-image:url(bottom_right_g.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom right;
+}
+td.boxw {
+	padding-bottom:3px;
+}
+.bottomw {
+	border-bottom:1px dotted #CCCCCC;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:6px;
+	padding-top:2px;
+}
+/* FX Box */
+#fx .titlebox_grey  {
+	background-image:url(fx_grey_back.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top;
+}
+#fx .titlebox_grey_left  {
+	background-image:url(fx_grey_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top left;
+}
+#fx .titlebox_grey_right  {
+	background-image:url(fx_grey_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top right;
+}
+#fx .titlebox_indigo  {
+	background-image:url(indigo/fx_back.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top;
+}
+#fx .titlebox_indigo_left  {
+	background-image:url(indigo/fx_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top left;
+}
+#fx .titlebox_indigo_right  {
+	background-image:url(indigo/fx_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top right;
+}
+#fx .bottom {
+	background-image:url(fx_bottom.gif);
+	background-repeat:repeat-x;
+	background-color:#EEEEEE;
+	background-position:bottom;
+}
+#fx .bottom_left {
+	background-image:url(fx_bottom_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom left;
+}
+#fx .bottom_right {
+	background-image:url(fx_bottom_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom right;
+	height:50px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:2px;
+}
+
+/* Flat Box */
+#flat .titlebox_grey  {
+	background-image:url(grey_back.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top;
+}
+#flat .titlebox_grey_left  {
+	background-image:url(grey_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top left;
+}
+#flat .titlebox_grey_right  {
+	background-image:url(grey_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top right;
+}
+#flat .titlebox_indigo  {
+	background-image:url(indigo/back.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	background-position:top;
+}
+#flat .titlebox_indigo_left  {
+	background-image:url(indigo/left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top left;
+}
+#flat .titlebox_indigo_right  {
+	background-image:url(indigo/right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:top right;
+}
+#flat .bottom {
+	background-color:#EEEEEE;
+}
+#flat .bottom_left {
+	background-image:url(bottom_left.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom left;
+}
+#flat .bottom_right {
+	background-image:url(bottom_right.gif);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	background-position:bottom right;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:2px;
+}
+#indigo .mark {
+	background-image:url(indigo/mark.gif);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	width:23px;
+	height:23px;
+	padding-left:10px;
+}
