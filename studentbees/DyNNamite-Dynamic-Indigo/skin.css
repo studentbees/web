@@ -462,12 +462,10 @@ H5	{
 }
 
 A:link, A:visited	 {
-	font-family:Arial,sans-serif;
 	color:#183A9B;
 	text-decoration:none;
 }
 A:hover, A:active {
-	font-family:Arial,sans-serif;
 	color:#2B60DE;
 	text-decoration:underline;
 }
