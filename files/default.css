@@ -1148,5 +1148,14 @@ padding-top:15px
        }
 
 
+	   #blogrunner 
+	   {
+	   margin-top:10px; color:gray !important; font-size:16px	   
+	   }
+	   div#blogrunner a:link { color: black; }
+div#blogrunner a:visited { color: black; }
+div#blogrunner a:hover { color: black; }
+div#blogrunner a:active { color: black; }
+
 
 
