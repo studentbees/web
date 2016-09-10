@@ -349,8 +349,8 @@ font-weight: bold;
 }
 
 .fItem {
-font-size:110%
-    padding-top: 5px;
+font-size:110%;
+ padding-top: 5px;
 }
 
 .cardItems{
@@ -1157,5 +1157,45 @@ div#blogrunner a:visited { color: black; }
 div#blogrunner a:hover { color: black; }
 div#blogrunner a:active { color: black; }
 
+
+ .smallico {
+            margin-top: 20px;
+            height: 56px;
+        }
+
+        .listico {
+            width: 186px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #bottombar {
+            padding-top: 30px;
+            padding-bottom: 20px;
+            background-color: #01527A;
+        }
+
+            #bottombar * {
+                color: #dddddd;
+                list-style-type: none;
+                padding: 0;
+            }
+
+        #bottomMid {
+            background-image: linear-gradient(#01527A 0px, rgb(41, 23, 24) 100%);
+            padding-top: 10px;
+        }
+
+            #bottomMid * {
+                color: #aaaaaa;
+            }
+
+            .sticky-nav-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:9999
+}
 
 
